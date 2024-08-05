@@ -5,6 +5,7 @@
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-around;
 }
 
@@ -37,6 +38,7 @@
     cursor: pointer;
     text-decoration: none;
     color: #fff;
+    font-weight: 700; 
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: color .4s ease;
@@ -44,20 +46,21 @@
 
 .nav-header li .btnHeader:hover{
     color: var(--web-color);
+    text-decoration: underline;
     transition: color .4s ease;
 }
 
 .logo{
     width: 70px;
+    margin-left: 0px;
 }
 
 @media screen and (max-width: 1125px) {
     .nav_items{
         position: absolute;
         top: 80px;
-        left: 0;
-        background: white;
-        border: 1px solid var(--web-color);
+        background: var(--bg-color);
+        border-top: 1px solid var(--web-color);
         display: flex;
         flex-direction: column;
         width: 100%;       
@@ -94,7 +97,13 @@
         width: 100%;
     }
     .nav-header li .btnHeader{
+        color: #fff;
+        font-weight: 800;
+        margin: 25px 0 25px 0;
+    }
+    .nav-header li .btnHeader:hover{
         color: var(--web-color);
         font-weight: 800;
+        
     }
 }
