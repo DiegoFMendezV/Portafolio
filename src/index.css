@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #101630;
+  --web-color: #00aeef;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.wrapContent{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg1{
+  background-color: var(--bg-color);
+}
