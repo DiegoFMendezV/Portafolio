@@ -52,7 +52,7 @@
     color: var(--web-color);
 }
 
-.info{
+.info2{
     text-align: center;
     padding: 10px;
 }
@@ -80,12 +80,25 @@
     margin: 20px 0px;
 }
 
-
-
 .redes a .icon{
     margin: 0 20px;
     font-size: 40px;
     color: #fff;
 }
 
+@media screen and (max-width: 1125px){
+    .background{
+        font-size: 2rem;
+    }
+
+    .heroContent{
+        display: block;
+        padding: 20px 0;
+    }
+
+    .info1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
 
