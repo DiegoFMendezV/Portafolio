@@ -1,6 +1,6 @@
 import {useState} from "react";
-import './NavHeader.css'
-import Logo from '../../src/assets/Logo.png'
+import '../../components/NavHeader/NavHeader.css'
+import Logo from '../../assets/Logo.png'
 
 export const NavHeader = () => {
     const [ isOpen , setIsOpen ] = useState (false)
@@ -13,8 +13,8 @@ export const NavHeader = () => {
             </div>
             <ul className={ `nav_items ${ isOpen && "open" }` }>
                 <li><button className='btnHeader item'>Incio</button></li>
-                <li><button className='btnHeader item'>Sobre mi</button></li>
                 <li><button className='btnHeader item'>Portafolio</button></li>
+                <li><button className='btnHeader item'>Sobre mi</button></li>
                 <li><button className='btnHeader item'>Servicios</button></li>
             </ul>
             <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>

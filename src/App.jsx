@@ -1,5 +1,5 @@
 import './App.css'
-import { NavHeader } from './components/NavHeader'
+import { NavHeader } from './components/NavHeader/NavHeader'
 
 function App() {
   

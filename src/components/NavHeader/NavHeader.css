@@ -51,8 +51,8 @@
 }
 
 .logo{
-    width: 70px;
-    margin-left: 0px;
+    width: 60px;
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 1125px) {
@@ -104,6 +104,8 @@
     .nav-header li .btnHeader:hover{
         color: var(--web-color);
         font-weight: 800;
-        
+    }
+    .logo{
+        margin: 0;
     }
 }
