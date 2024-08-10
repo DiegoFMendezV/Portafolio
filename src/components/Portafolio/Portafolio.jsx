@@ -5,31 +5,37 @@ import image2 from '../../assets/image2.jpg'
 import image3 from '../../assets/image3.jpg'
 import image4 from '../../assets/image4.jpg'
 import image5 from '../../assets/image5.jpg'
-import image6 from '../../assets/image6.jpg'
-import image7 from '../../assets/image7.jpg'
-import image8 from '../../assets/image8.jpg'
-import image9 from '../../assets/image9.jpg'
-import image10 from '../../assets/image10.jpg'
-import image11 from '../../assets/image11.jpg'
-import image12 from '../../assets/image12.jpg'
-
+import poke from '../../assets/POKE.png'
+import diseño1 from '../../assets/diseño1.jpg'
+import diseño2 from '../../assets/diseño2.jpg'
+import diseño3 from '../../assets/diseño3.jpg'
+import diseño4 from '../../assets/diseño4.jpg'
+import diseño5 from '../../assets/diseño5.png'
+import diseño6 from '../../assets/diseño6.png'
 
 export const Portafolio = () => {
-    const [selectedButton, setSelectedButton] = useState(1);
+  const [selectedButton, setSelectedButton] = useState(1);
   
-    const data = {
+  const data = {
       1: {
-        images: [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12],
-        title: ['Liwi Software'],
-        text: ['Creación de una landing page, utilizando herramientas como React.js (vite), Bootstrap y Fontawesome, (No se encuentra en producción aun)'],
+      images: [image1, image2, image3, image4, image5],
+      title: ['Liwi Software'],
+      text: ['Creación de una landing page, utilizando herramientas como React.js (vite), Bootstrap y Fontawesome. (No se encuentra en producción aun.)'],
       },
       2: {
-        images: [image1, image2, image3],
-        texts: ['Texto A', 'Texto B', 'Texto C'],
+        images: [diseño1, diseño2, diseño3, diseño4, diseño5, diseño6],
+        title: ['Diseño Gráfico'],
+        text: ['Post para redes sociales, menús, volantes y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.'],
       },
       3: {
-        images: [image1, image2, image3],
-        texts: ['Texto X', 'Texto Y', 'Texto Z'],
+        images: [poke],
+        title: ['Pokedex'],
+        text: ['Crear sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript,apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
+        text1:[
+          <>
+          <a href="https://pokedex-rosy-iota.vercel.app/" target='_blank'>Visitar Sitio</a>
+          </>
+        ]
       },
     };
   
@@ -39,31 +45,35 @@ export const Portafolio = () => {
     const handleClick = (buttonNumber) => {
       setSelectedButton(buttonNumber);
     };
-  
+    
+    const { images} = data[selectedButton] || data[1];
+    
     return (
-        <article className='wrapContent bg1'>
+      <article className='wrapContent bg1'>
             <div className='subWrap'>
                 <div className="contentPortafolio">
                     <h3>PORTAFOLIO</h3>
                     <div className='botones'>
-                    <button className='btnPortafolio' onClick={() => handleClick(1)}>Botón 1</button>
-                    <button className='btnPortafolio' onClick={() => handleClick(2)}>Botón 2</button>
-                    <button className='btnPortafolio' onClick={() => handleClick(3)}>Botón 3</button>
+                    <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
+                    <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño Gráfico</button>
+                    <button className='btnPortafolio' onClick={() => handleClick(3)}>Proyectos Académicos</button>
                     </div>
 
                     <div className='info'>
                         <div className='card'>
-                          <img src={image1} alt="" />
+                          <img src={images[0]}/>
                             {selectedData.images.map((image, index) => (
-                                <div className='card-body' key={index}>
+                              <div className='card-body' key={index}>
                                   <h2 className='card-title'>{selectedData.title[index]}</h2>
-                                  <p className='card-text'>{selectedData.text[index]}</p>
-                                  {/* Modal */}
+                                    <p className='card-text'>{selectedData.text[index]}</p>
+                                    {selectedButton === 3 && (
+                                        <p>{selectedData.text1[index]}</p>
+                                    )}
                                     <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                       <div className="modal-dialog">
                                         <div className="modal-content">
                                           <div className="modal-header">
-                                            <h1 className="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                            <h1 className="modal-title fs-5" id="staticBackdropLabel">Galería</h1>
                                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                           </div>
                                           <div className="modal-body">
@@ -74,16 +84,18 @@ export const Portafolio = () => {
                                                 ))};  
                                           </div>
                                           <div className="modal-footer">
-                                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+                                            <button type="button" className="btnModal" data-bs-dismiss="modal">Aceptar</button>
                                           </div>
                                         </div>
                                       </div>
                                     </div>                                        
                                 </div>
                             ))}
-                        <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        Ver Más
-                        </button>
+                            {selectedButton !== 3 && (
+                            <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Ver Más
+                            </button>
+                          )}
                         
                         </div>
                     </div>

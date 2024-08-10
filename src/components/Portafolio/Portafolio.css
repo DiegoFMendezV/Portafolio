@@ -6,15 +6,22 @@
 
 .contentPortafolio .info{
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contentPortafolio .info .card{
-    width: 18rem;
-    padding: 10px;
+    width: 30rem;
+    padding: 20px;
 }
 
 .contentPortafolio .info .card .card-body img{
     width: 100%;
+    margin-bottom: 20px;
+}
+
+.contentPortafolio .info .card .card-body .card-title{
     margin-bottom: 20px;
 }
 
@@ -35,4 +42,34 @@
     border: none;
     color: var(--web-color);
     font-size: 20px;
+}
+
+.btnPortafolio:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btnModal{
+    width: 150px;
+    height: 30px;
+    padding: 3px;
+    font-weight: bold;
+    background-color: var(--web-color);
+    border: none;
+    color: var(--bg--color);
+    box-shadow: 0px 0px 10px 0px var(--web-color);
+}
+
+.btnCard{
+    width: 100%;
+    padding: 3px;
+    font-weight: bold;
+    background-color: var(--web-color);
+    border: none;
+    color: var(--bg--color);
+    box-shadow: 0px 0px 10px 0px var(--web-color);
+}
+
+.btnCard:hover{
+    transform: scale(.9);
 }
