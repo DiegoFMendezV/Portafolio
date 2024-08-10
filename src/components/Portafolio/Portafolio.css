@@ -1,0 +1,38 @@
+.contentPortafolio h3{
+    color: #fff;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contentPortafolio .info{
+    color: #fff;
+}
+
+.contentPortafolio .info .card{
+    width: 18rem;
+    padding: 10px;
+}
+
+.contentPortafolio .info .card .card-body img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contentPortafolio .info .card .card-body .card-text{
+    font-family: "Roboto", sans-serif;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.botones .btnPortafolio{
+    background: none;
+    border: none;
+    color: var(--web-color);
+    font-size: 20px;
+}
