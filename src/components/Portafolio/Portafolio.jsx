@@ -12,6 +12,7 @@ import diseño3 from '../../assets/diseño3.jpg'
 import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
+import logo from '../../assets/Logo.png'
 
 export const Portafolio = () => {
   const [selectedButton, setSelectedButton] = useState(1);
@@ -20,20 +21,44 @@ export const Portafolio = () => {
       1: {
       images: [image1, image2, image3, image4, image5],
       title: ['Liwi Software'],
-      text: ['Creación de una landing page, utilizando herramientas como React.js (vite), Bootstrap y Fontawesome. (No se encuentra en producción aun.)'],
+      text: [
+        <>
+        <p>
+          Creación de una landing page, utilizando herramientas como React.js (vite), Bootstrap y Fontawesome. (No se encuentra en producción aun.)
+        </p>
+        <button type="button" className="btnCard btn_ver" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Ver Más
+        </button>
+        </>
+      ],
       },
       2: {
-        images: [diseño1, diseño2, diseño3, diseño4, diseño5, diseño6],
+        images: [logo, diseño1, diseño2, diseño3, diseño4, diseño5, diseño6],
         title: ['Diseño Gráfico'],
-        text: ['Post para redes sociales, menús, volantes y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.'],
+        text: [
+          <>
+          <p>
+            Creación de logo personal con Adobe Illustrator.
+          </p>
+          <p>
+            Posts para redes sociales, menús, volantes y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.
+          </p>
+          <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Ver Más
+          </button>
+          </>
+        ],
       },
+      
       3: {
         images: [poke],
         title: ['Pokedex'],
         text: ['Crear sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript,apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
         text1:[
           <>
-          <a href="https://pokedex-rosy-iota.vercel.app/" target='_blank'>Visitar Sitio</a>
+          <button className="btnCard btn_ver">
+            <a id='visitar' href="https://pokedex-rosy-iota.vercel.app/" target='_blank'>Visitar Sitio</a>
+          </button>
           </>
         ]
       },
@@ -61,13 +86,13 @@ export const Portafolio = () => {
 
                     <div className='info'>
                         <div className='card'>
-                          <img src={images[0]}/>
+                          <img className='img_portada' src={images[0]}/>
                             {selectedData.images.map((image, index) => (
                               <div className='card-body' key={index}>
                                   <h2 className='card-title'>{selectedData.title[index]}</h2>
                                     <p className='card-text'>{selectedData.text[index]}</p>
                                     {selectedButton === 3 && (
-                                        <p>{selectedData.text1[index]}</p>
+                                        <p className='text1'>{selectedData.text1[index]}</p>
                                     )}
                                     <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                       <div className="modal-dialog">
@@ -91,11 +116,7 @@ export const Portafolio = () => {
                                     </div>                                        
                                 </div>
                             ))}
-                            {selectedButton !== 3 && (
-                            <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            Ver Más
-                            </button>
-                          )}
+                          
                         
                         </div>
                     </div>

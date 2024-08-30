@@ -36,7 +36,9 @@
 }
 
 .subWrap .contentSobreMi h3{
-    color: #fff;
+    color: var(--web-color);
+    margin: 10px 0;
+    text-align: center;
 }
 
 .subWrap .contentSobreMi p{
@@ -44,6 +46,112 @@
     color: #fff;
     font-size: 18px;
     text-align: justify;
+}
+
+.subWrap .contentSobreMi .educacion{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subWrap .contentSobreMi .educacion h3{
+    color: var(--web-color);
+}
+
+.subWrap .contentSobreMi .educacion h5{
+    color: var(--web-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subWrap .contentSobreMi .educacion .formal{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    padding: 20px;
+    margin: 10px 0 30px 0;
+}
+
+.subWrap .contentSobreMi .educacion .noFormal{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    padding: 20px;
+    margin: 10px 0 30px 0;
+}
+
+.subWrap .contentSobreMi .educacion .formal ol{
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    
+}
+
+.subWrap .contentSobreMi .educacion .noFormal ol{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+
+.subWrap .contentSobreMi .educacion .formal ol li{
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    text-align: justify;
+}
+
+.subWrap .contentSobreMi .educacion .noFormal ol li{
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+}
+
+.subWrap .contentSobreMi .skills{
+    color: #fff;
+    text-align: center;
+}
+
+.subWrap .contentSobreMi .skills h5{
+    margin: 25px 0;
+}
+
+.subWrap .contentSobreMi .skills .web{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subWrap .contentSobreMi .skills .web img{
+   width: 150px;
+}
+
+.subWrap .contentSobreMi .skills .back{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.subWrap .contentSobreMi .skills .back img{
+   width: 150px;
+}
+
+.subWrap .contentSobreMi .skills .bd{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subWrap .contentSobreMi .skills .bd img{
+    width: 150px;
+}
+
+.subWrap .contentSobreMi .skills .diseño{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subWrap .contentSobreMi .skills .diseño img{
+   width: 150px;
 }
 
 @media screen and (max-width: 1125px){
@@ -72,4 +180,26 @@
         width: 200px;
         height: 250px; 
     }
+
+    .subWrap .contentSobreMi .educacion{
+        display: block;
+    }
+
+    .subWrap .contentSobreMi .educacion .formal ol li{
+        font-size: 15px;
+    }
+
+    .subWrap .contentSobreMi .educacion .noFormal ol li{
+        font-size: 12px;
+    }
+
+    .subWrap .contentSobreMi .skills .web{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .subWrap .contentSobreMi .skills .web img{
+        width: 100px;
+     }
 }

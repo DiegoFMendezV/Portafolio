@@ -13,7 +13,15 @@
 
 .contentPortafolio .info .card{
     width: 30rem;
+    height: 32rem;
     padding: 20px;
+    margin-bottom: 30px;
+}
+
+.contentPortafolio .info .card .img_portada{
+    width: 200px;
+    margin: 20px auto;
+    border: 5px solid var(--web-color);
 }
 
 .contentPortafolio .info .card .card-body img{
@@ -26,6 +34,10 @@
 }
 
 .contentPortafolio .info .card .card-body .card-text{
+    font-family: "Roboto", sans-serif;
+}
+
+.contentPortafolio .info .card .card-body .text1{
     font-family: "Roboto", sans-serif;
 }
 
@@ -72,4 +84,19 @@
 
 .btnCard:hover{
     transform: scale(.9);
+}
+
+.btn_ver{
+    margin-top: 50px;
+}
+
+#visitar{
+    text-decoration: none;
+    color: var(--bg--color);
+}
+
+@media screen and (max-width: 1125px){
+    .botones{
+        gap: 30px;
+    }
 }
