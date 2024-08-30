@@ -144,6 +144,16 @@
     width: 150px;
 }
 
+.subWrap .contentSobreMi .skills .cms{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.subWrap .contentSobreMi .skills .cms img{
+    width: 150px;
+}
+
 .subWrap .contentSobreMi .skills .diseño{
     display: flex;
     justify-content: center;
@@ -201,5 +211,31 @@
 
     .subWrap .contentSobreMi .skills .web img{
         width: 100px;
-     }
+    }
+
+    .subWrap .contentSobreMi .skills .back{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .subWrap .contentSobreMi .skills .back img{
+        width: 100px;
+    }
+
+    .subWrap .contentSobreMi .skills .bd img{
+        width: 100px;
+    }
+
+    .subWrap .contentSobreMi .skills .cms img{
+        width: 100px;
+    }
+
+    .subWrap .contentSobreMi .skills .diseño{
+        gap: 20px;
+    }
+
+    .subWrap .contentSobreMi .skills .diseño img{
+        width: 100px;
+    }
 }

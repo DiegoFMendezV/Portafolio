@@ -89,7 +89,7 @@ export const SobreMi = () => {
                 <img src="https://ih1.redbubble.net/image.5217761217.2947/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="" />
               </div>
               <h5>Gestor de Contenidos</h5>
-              <div className='bd'>
+              <div className='cms'>
                 <img src="https://biglinden.com/wp-content/uploads/2023/06/Wix-Logo.webp" alt="" />
                 <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png" alt="" />
               </div>
