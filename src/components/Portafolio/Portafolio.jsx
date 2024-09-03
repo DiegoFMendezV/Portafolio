@@ -14,7 +14,7 @@ import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
 import logo from '../../assets/Logo.png'
 
-export const Portafolio = () => {
+function Portafolio () {
   const [selectedButton, setSelectedButton] = useState(1);
   
   const data = {
@@ -122,6 +122,6 @@ export const Portafolio = () => {
             </div>        
         </article>
     );
-  };
+  }
   
-
+export default Portafolio

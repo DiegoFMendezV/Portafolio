@@ -1,6 +1,6 @@
 import '../../components/Experiencia/Experiencia.css'
 
-export const Experiencia = () => {
+function Experiencia () {
   return (
     <>
     <article className="wrapContent bg1">
@@ -39,3 +39,5 @@ export const Experiencia = () => {
     </>
   )
 }
+
+export default Experiencia

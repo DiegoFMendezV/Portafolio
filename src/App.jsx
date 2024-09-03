@@ -1,9 +1,10 @@
 import './App.css'
-import { NavHeader } from './components/NavHeader/NavHeader'
-import { Inicio } from './components/Inicio/Inicio'
-import { SobreMi } from './components/SobreMi/SobreMi'
-import { Portafolio } from './components/Portafolio/Portafolio'
-import { Experiencia } from './components/Experiencia/Experiencia'
+import NavHeader from './components/NavHeader/NavHeader'
+import Inicio from './components/Inicio/Inicio'
+import SobreMi from './components/SobreMi/SobreMi'
+import Portafolio from './components/Portafolio/Portafolio'
+import Experiencia from './components/Experiencia/Experiencia'
+import Contacto from './components/Contacto/Contacto'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <SobreMi/>
       <Portafolio/>
       <Experiencia/>
+      <Contacto/>
     </>
   )
 }

@@ -2,7 +2,7 @@ import {useState} from "react";
 import '../../components/NavHeader/NavHeader.css'
 import Logo from '../../assets/Logo.png'
 
-export const NavHeader = () => {
+function NavHeader () {
     const [ isOpen , setIsOpen ] = useState (false)
 
   return (
@@ -27,3 +27,5 @@ export const NavHeader = () => {
     </header>
   )
 }
+
+export default NavHeader

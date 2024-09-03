@@ -1,6 +1,6 @@
 import '../../components/SobreMi/SobreMi.css'
 
-export const SobreMi = () => {
+function SobreMi () {
   return (
     <>
       <article className="wrapContent bg1">
@@ -108,3 +108,5 @@ export const SobreMi = () => {
 
   )
 }
+
+export default SobreMi
