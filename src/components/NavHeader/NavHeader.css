@@ -8,6 +8,10 @@
     justify-content: center;
     justify-content: space-around;
     border-bottom: 1px solid var(--web-color);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: var(--bg-color);
 }
 
 .nav-header h1{
@@ -40,6 +44,7 @@
     cursor: pointer;
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
     font-weight: 700; 
     text-transform: uppercase;
     letter-spacing: 3px;

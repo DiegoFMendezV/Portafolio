@@ -28,8 +28,7 @@ export const Experiencia = () => {
                     Liwa S.A.S. E.S.P.<br />
                     Desarrollador Fullstack <br />
                     Mejorar página web para los colaboradores de la compañía, haciendo uso de HTML, CSS, JavaScript, frameworks 
-                    como Laravel y Vue.js, unificando el navbar y footer con layouts para todas las vistas. Se rediseñó el inicio de 
-                    sesión, módulos de SGSST y cultura. Así, como la creación del módulo de perfil, cambio de contraseña y cambio 
+                    como Laravel y Vue.js. Se rediseñó varias secciones, así como la creación del módulo de perfil, cambio de contraseña y cambio 
                     de foto de perfil con sus respectivas validaciones.
                   </li>
                 </ol>

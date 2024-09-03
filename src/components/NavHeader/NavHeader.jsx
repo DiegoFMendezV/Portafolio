@@ -15,6 +15,7 @@ export const NavHeader = () => {
                 <li><button className='btnHeader item'>Incio</button></li>
                 <li><button className='btnHeader item'>Sobre mi</button></li>
                 <li><button className='btnHeader item'>Portafolio</button></li>
+                <li><button className='btnHeader item'>Experiencia</button></li>
                 <li><button className='btnHeader item'>Contacto</button></li>
             </ul>
             <div className={`nav_toggle ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
