@@ -1,0 +1,27 @@
+.subWrap .contentExperiencia{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subWrap .contentExperiencia h3{
+    color: var(--web-color);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.subWrap .contentExperiencia .experiencia{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    padding: 20px;
+    margin: 10px 0 30px 0;
+    color: #fff;
+}
+
+.subWrap .contentExperiencia .experiencia ol li{
+    font-family: "Roboto", sans-serif;
+    margin: 15px;
+    text-align: justify;
+}

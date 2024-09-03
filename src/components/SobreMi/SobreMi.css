@@ -206,7 +206,7 @@
     .subWrap .contentSobreMi .skills .web{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .subWrap .contentSobreMi .skills .web img{

@@ -39,8 +39,6 @@ export const Portafolio = () => {
           <>
           <p>
             Creación de logo personal con Adobe Illustrator.
-          </p>
-          <p>
             Posts para redes sociales, menús, volantes y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.
           </p>
           <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
@@ -80,7 +78,7 @@ export const Portafolio = () => {
                     <h3>PORTAFOLIO</h3>
                     <div className='botones'>
                     <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
-                    <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño Gráfico</button>
+                    <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño</button>
                     <button className='btnPortafolio' onClick={() => handleClick(3)}>Proyectos Académicos</button>
                     </div>
 
