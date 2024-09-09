@@ -1,3 +1,4 @@
+import foto from '../../assets.foto.jpg'
 import '../../components/SobreMi/SobreMi.css'
 
 function SobreMi () {
@@ -6,7 +7,7 @@ function SobreMi () {
       <article className="wrapContent bg1">
         <div className="subWrap">
           <div className="image">
-            <img src="src/assets/FOTO.jpg" alt="" />
+            <img src={foto} alt="" />
           </div>
           <div className="contentSobreMi">
             <h3>SOBRE MI</h3>
