@@ -1,4 +1,4 @@
-import foto from '../../assets.foto.jpg'
+import foto from '../../assets/foto.jpg'
 import '../../components/SobreMi/SobreMi.css'
 
 function SobreMi () {
