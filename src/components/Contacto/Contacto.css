@@ -1,0 +1,52 @@
+.subWrap .contentContacto{
+    width: 40%;
+}
+
+.subWrap .contentContacto h3{
+    color: var(--web-color);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.subWrap .contentContacto p{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+}
+
+.subWrap .contentContacto .contacto{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    padding: 25px;
+    margin: 40px 0 30px 0;
+    color: #fff;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+textarea{
+    margin-bottom: 50px;
+}
+
+.boton{
+    height: 50px;
+    padding: 8px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    margin: 10px 0;
+    background-color: var(--web-color);
+    color: #fff;
+}
+
+.boton:hover{
+    background-color: #fff;
+    color: var(--web-color);
+}
