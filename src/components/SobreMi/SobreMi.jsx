@@ -1,5 +1,6 @@
 import foto from '../../assets.foto.jpg'
 import '../../components/SobreMi/SobreMi.css'
+import foto from '../../assets/foto.jpg'
 
 function SobreMi () {
   return (
