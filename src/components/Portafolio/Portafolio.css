@@ -1,5 +1,5 @@
 .contentPortafolio h3{
-    color: #fff;
+    color: var(--web-color);
     text-align: center;
     margin: 30px 0;
 }
@@ -22,6 +22,16 @@
     width: 200px;
     margin: 20px auto;
     border: 5px solid var(--web-color);
+}
+
+.contentPortafolio .info .card{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px var(--bg-color);
+    padding: 20px;
+    margin: 10px 0 30px 0;
+    background-color: var(--bg-color);
+    color: #fff;
 }
 
 .contentPortafolio .info .card .card-body img{
@@ -52,12 +62,12 @@
 .botones .btnPortafolio{
     background: none;
     border: none;
-    color: var(--web-color);
+    color: var(--bg-color);
     font-size: 20px;
 }
 
 .btnPortafolio:hover{
-    color: #fff;
+    color: var(--web-color);
     text-decoration: underline;
 }
 
@@ -68,7 +78,7 @@
     font-weight: bold;
     background-color: var(--web-color);
     border: none;
-    color: var(--bg--color);
+    color: var(--bg-color);
     box-shadow: 0px 0px 10px 0px var(--web-color);
 }
 
@@ -78,7 +88,7 @@
     font-weight: bold;
     background-color: var(--web-color);
     border: none;
-    color: var(--bg--color);
+    color: var(--bg-color);
     box-shadow: 0px 0px 10px 0px var(--web-color);
 }
 
@@ -92,7 +102,7 @@
 
 #visitar{
     text-decoration: none;
-    color: var(--bg--color);
+    color: var(--bg-color);
 }
 
 @media screen and (max-width: 1125px){

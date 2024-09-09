@@ -14,10 +14,10 @@ function SobreMi () {
           </div>
         </div>      
       </article>
-      <article className="wrapContent bg1">
+      <article className="wrapContent bg2">
         <div className='subWrap'>
           <div className="contentSobreMi">
-            <h3>EDUCACIÓN</h3>
+            <h3 className='titulo'>EDUCACIÓN</h3>
             <div className='educacion'>
               <div className='formal'>
                 <h5>Formal</h5>
@@ -66,7 +66,7 @@ function SobreMi () {
       <article className="wrapContent bg1">
         <div className="subWrap">
           <div className="contentSobreMi">
-            <h3>HABILIDADES</h3>
+            <h3 className='titulo'>HABILIDADES</h3>
             <div className="skills">
               <h5>Frontend</h5>
               <div className="web">

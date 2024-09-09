@@ -72,7 +72,7 @@ function Portafolio () {
     const { images} = data[selectedButton] || data[1];
     
     return (
-      <article className='wrapContent bg1'>
+      <article className='wrapContent bg2'>
             <div className='subWrap'>
                 <div className="contentPortafolio">
                     <h3>PORTAFOLIO</h3>

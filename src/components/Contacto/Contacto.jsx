@@ -25,11 +25,11 @@ function Contacto () {
   };
   return (
     <>
-      <article className="wrapContent bg1">
+      <article className="wrapContent bg2">
         <div className='subWrap'>
           <div className="contentContacto">
             <h3>CONTACTO</h3>
-            <p>Hola, Si te ha gustado mi trabajo y crees que puedo aportar a tu equipo o proyecto, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones. ¡Hablemos!.</p>
+            <p><b>Hola, Si te ha gustado mi trabajo y crees que puedo aportar a tu equipo o proyecto, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones. ¡Hablemos!.</b></p>
             <div className='contacto'>
             <form ref={form} onSubmit={sendEmail}>
               <div className="form-group">

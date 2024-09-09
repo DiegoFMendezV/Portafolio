@@ -21,3 +21,7 @@
 .bg1{
   background-color: var(--bg-color);
 }
+
+.bg2{
+  background-color: #fff;
+}
