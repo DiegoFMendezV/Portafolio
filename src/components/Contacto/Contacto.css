@@ -17,7 +17,7 @@
 .subWrap .contentContacto .contacto{
     border: 5px solid var(--web-color);
     border-radius: 15px;
-    box-shadow: 0px 0px 10px 0px #fff;
+    box-shadow: 0px 0px 10px 0px var(--bg-color);
     padding: 25px;
     margin: 40px 0 30px 0;
     color: #fff;
