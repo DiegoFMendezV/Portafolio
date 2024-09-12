@@ -5,7 +5,7 @@ import MyCV from '../../assets/CV.pdf';
 
 function Inicio () {
   return (
-    <section className='wrapContent bg1'>
+    <section className='wrapContent bg2'>
         <div className='heroContent'>
             <div className='info1'>
                 <p>Yo soy</p>

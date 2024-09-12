@@ -1,5 +1,5 @@
 .nav-header{
-    width: 100%;
+    width: 90%;
     max-width: 2000px;
     height: 80px;
     color: #fff;
@@ -11,7 +11,9 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: var(--bg-color);
+    background-image: url('../../assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-header h1{
