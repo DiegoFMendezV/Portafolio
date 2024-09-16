@@ -83,7 +83,7 @@ function Portafolio () {
                     </div>
 
                     <div className='info'>
-                        <div className='card'>
+                        <div className='card bg1'>
                           <img className='img_portada' src={images[0]}/>
                             {selectedData.images.map((image, index) => (
                               <div className='card-body' key={index}>

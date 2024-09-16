@@ -10,23 +10,23 @@ function Experiencia () {
             <div className='experiencia'>
                 <ol>
                   <li>
-                    <b>Abril - Actual</b> <br />
+                    <b>Desarrollador Multimedia</b> <br />
                     Imagen Art and Design<br />
-                    Desarrollador Multimedia <br />
+                    Abril 2024 - Actual <br />
                     Crear páginas web, logotipos, diseños para locales comerciales, editar fotografías y videos, crear posts para 
                     redes sociales y todo tipo de publicación física y digital.
                   </li>
                   <li>
-                    <b>Enero - Marzo 2024</b> <br />
+                    <b>Desarrollador Frontend Freelance</b> <br />
                     Liwi Software <br />
-                    Desarrollador Frontend Freelance <br />
+                    Enero 2024 - Marzo 2024 <br />
                     Crear una landing page Liwi Software, utilizando herramientas como React.js (vite), Bootstrap y 
                     Fontawesome.
                   </li>
                   <li>
-                    <b>Enero - Julio 2023</b> <br />
+                    <b>Desarrollador Fullstack</b> <br />
                     Liwa S.A.S. E.S.P.<br />
-                    Desarrollador Fullstack <br />
+                    Enero 2023 - Julio 2023 <br />
                     Mejorar página web para los colaboradores de la compañía, haciendo uso de HTML, CSS, JavaScript, frameworks 
                     como Laravel y Vue.js. Se rediseñó varias secciones, así como la creación del módulo de perfil, cambio de contraseña y cambio 
                     de foto de perfil con sus respectivas validaciones.

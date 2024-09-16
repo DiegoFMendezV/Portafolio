@@ -11,7 +11,7 @@ function SobreMi () {
           </div>
           <div className="contentSobreMi">
             <h3>SOBRE MI</h3>
-            <p>Técnico en Programación de Software y Desarrollador Full Stack. Con conocimientos en desarrollo de sitios web con HTML, CSS y JavaScript, además del uso de frameworks como Laravel (PHP), Bootstrap, React.js y Vue.js, también en bases de datos relacionales (MySQL - PostgreSQL), en gestores de contenido como WordPress y Wix y en software de diseño gráfico como Photoshop, Illustrator y CorelDraw. <br /> <br /> Caracterizado por la adaptabilidad, comunicación asertiva, orientación a resultados, proactividad y trabajo en equipo. Orientado en contribuir al éxito de proyectos desafiantes y colaborar con un equipo altamente motivado para lograr resultados óptimos. </p>
+            <p>Técnico en Programación de Software y Desarrollador Full Stack. Con conocimientos en desarrollo de sitios web con HTML, CSS y JavaScript, además del uso de frameworks como Laravel (PHP), Bootstrap, React.js y Vue.js, también en bases de datos relacionales (MySQL - PostgreSQL), en gestores de contenido como WordPress y Wix, en software de diseño gráfico como Photoshop, Illustrator y CorelDraw. <br /> <br /> Caracterizado por la adaptabilidad, comunicación asertiva, orientación a resultados, proactividad y trabajo en equipo. Orientado en contribuir al éxito de proyectos desafiantes y colaborar con un equipo altamente motivado para lograr resultados óptimos. </p>
           </div>
         </div>      
       </article>
@@ -20,7 +20,7 @@ function SobreMi () {
           <div className="contentSobreMi">
             <h3 className='titulo'>EDUCACIÓN</h3>
             <div className='educacion'>
-              <div className='formal'>
+              <div className='formal bg1'>
                 <h5>Formal</h5>
                 <ol>
                   <li>
@@ -37,7 +37,7 @@ function SobreMi () {
                   </li>
                 </ol>
               </div>
-              <div className='noFormal'>
+              <div className='noFormal bg1'>
                 <h5>No Formal</h5>
                 <ol>
                   <li>

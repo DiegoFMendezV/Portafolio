@@ -12,6 +12,8 @@
     color: var(--bg-color);
     text-align: center;
     margin: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
 
 .subWrap .contentContacto .contacto{
@@ -49,7 +51,7 @@ textarea{
 
 .boton:hover{
     background-color: #fff;
-    color: var(--web-color);
+    color: var(--bg-color);
 }
 
 @media screen and (max-width: 1125px){
