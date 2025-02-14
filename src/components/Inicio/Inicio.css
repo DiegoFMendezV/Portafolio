@@ -1,0 +1,127 @@
+.background{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: transparent; 
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsXht1Z-A_uNhVCvCer3DIyp7h73yOJ0q7RA&s);
+    animation: animar-texto 4s ease-in-out infinite;
+}
+
+@keyframes animar-texto{
+    0%{
+        background-position: left top;
+    }
+    25%{
+        background-position: right bottom;
+    }
+    50%{
+        background-position: left bottom;
+    }
+    75%{
+        background-position: right top;
+    }
+    100%{
+        background-position: left bottom;
+    }
+}
+
+.heroContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    width: 90%;
+    max-width: 1900px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.point{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--bg2-color);
+    border-radius: 2px;
+}
+
+.heroContent .info1 p{
+    font-size: 35px;
+    margin: 10px 0;
+    color: var(--bg2-color);
+    font-weight: 500;
+}
+
+.info2{
+    text-align: center;
+    padding: 10px;
+}
+
+.info2 p{
+    color: var(--bg2-color);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.btnCV{
+    width: 250px;
+    height: 50px;
+    padding: 8px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    margin: 10px 0;
+}
+
+.btnCV:hover{
+    background-color: var(--web-color);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.btnCV span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.redes{
+    margin: 20px 0px;
+}
+
+.redes a .icon{
+    margin: 0 20px;
+    font-size: 40px;
+    color: var(--bg2-color);
+}
+
+.redes a:hover .icon{
+    color: var(--web-color);
+}
+
+#actualizar{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1125px){
+    .background{
+        font-size: 2rem;
+    }
+
+    .heroContent{
+        display: block;
+        padding: 20px 0;
+    }
+
+    .info1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .point{
+        width: 10px;
+        height: 10px;
+    }
+}
+

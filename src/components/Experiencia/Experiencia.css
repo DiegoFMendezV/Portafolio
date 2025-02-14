@@ -1,0 +1,45 @@
+.subWrap .contentExperiencia{
+    max-width: 80%;
+}
+
+.subWrap .contentExperiencia h3{
+    color: var(--web-color);
+    margin: 30px 0;
+    text-align: center;
+}
+
+.subWrap .contentExperiencia .experiencia{
+    border: 5px solid var(--web-color);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #fff;
+    padding: 25px;
+    margin: 40px 0 30px 0;
+    color: #fff;
+}
+
+.subWrap .contentExperiencia .experiencia ol{
+    padding-left: 1rem;
+    display: flex;
+    gap: 50px;
+}
+
+.subWrap .contentExperiencia .experiencia ol li{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    width: 33%;
+}
+
+@media screen and (max-width: 1125px){
+    .subWrap .contentExperiencia{
+        max-width: 100%;
+    }
+
+    .subWrap .contentExperiencia .experiencia ol{
+        display: block;
+    }
+
+    .subWrap .contentExperiencia .experiencia ol li{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
