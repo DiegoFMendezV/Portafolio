@@ -55,7 +55,6 @@
     display: flex;
     gap: 100px;
     margin-bottom: 50px;
-    margin-left: 50px;
 }
 
 .botones .btnPortafolio{
@@ -115,5 +114,9 @@
         height: 35rem;
         padding: 20px;
         margin-bottom: 30px;
+    }
+
+    .botones .btnPortafolio{
+        font-size: 15px;
     }
 }

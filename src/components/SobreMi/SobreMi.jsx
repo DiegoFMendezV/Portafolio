@@ -54,13 +54,13 @@ function SobreMi () {
                   </li>
                   <li>
                     Introducción a la Programación con Python <br />
-                    Corporación de Educación Tecnológica Colsubsidio <br />
+                    Corporación Educación Tecnológica Colsubsidio <br />
                     Certificado - 2022 <br />
                     Bogotá D.C - Colombia.
                   </li>
                   <li>
                     Análisis de Datos y Big Data <br />
-                    Corporación de Educación Tecnológica Colsubsidio <br />
+                    Corporación Educación Tecnológica Colsubsidio <br />
                     Certificado - 2022 <br />
                     Bogotá D.C - Colombia
                   </li>
@@ -89,14 +89,13 @@ function SobreMi () {
               <h5>Frontend</h5>
               <div className="web">
                 <img src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png" alt="HTML" title="HTML" />
-                <img src="https://img.icons8.com/?size=512&id=21278&format=png" alt="CSS" title="CSS"/>
+               <img src="https://img.icons8.com/?size=512&id=21278&format=png" alt="" title="CSS"/>
                 <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png" alt="JavaScript" title="JavaScript"/>
                 <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="React" title='React.js'/>
                 <img src="https://cdn3d.iconscout.com/3d/free/thumb/free-bootstrap-framework-3d-icon-download-in-png-blend-fbx-gltf-file-formats--logo-dart-mobile-developer-programming-language-pack-logos-icons-5453031.png" alt="" />
               </div>
               <h5>Backend</h5>
               <div className="back">
-                <img src="https://img.icons8.com/badges/200/php-logo.png" alt="PHP" title='PHP'/>
                 <img src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png" alt="Laravel" title='Laravel'/>
                 <img src="https://seekvectors.com/files/download/node%20js%20logo.png" alt="" />
               </div>

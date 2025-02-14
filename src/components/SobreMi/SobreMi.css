@@ -203,10 +203,13 @@
         display: block;
     }
 
+   
+
     .subWrap .contentSobreMi .educacion .formal ol li{
-        font-size: 13px;
+        font-size: 12px;
     }
 
+   
     .subWrap .contentSobreMi .educacion .noFormal ol li{
         font-size: 12px;
     }
@@ -240,6 +243,9 @@
     }
 
     .subWrap .contentSobreMi .skills .diseño{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 20px;
     }
 
