@@ -8,9 +8,7 @@ function Inicio () {
   return (
     <section className='wrapContent bg2'>
         <div className='heroContent'>
-            
-                <img className='logo' src={Logo} alt="" />
-            
+            <img className='logo' src={Logo} alt="" />
             <div className='info1'>
             <p id='actualizar'>Actualizado: 04 abril 2025</p>
                 <p>Yo soy</p>

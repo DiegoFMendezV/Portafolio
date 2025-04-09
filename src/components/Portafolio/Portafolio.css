@@ -109,6 +109,10 @@
     color: var(--bg-color);
 }
 
+.favor{
+    color: var(--bg-color);
+}
+
 @media screen and (max-width: 1125px){
     .botones{
         gap: 30px;

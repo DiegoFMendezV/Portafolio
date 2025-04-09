@@ -1,4 +1,9 @@
 import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper/modules';
 import '../../components/Portafolio/Portafolio.css'
 import image1 from '../../assets/image1.jpg'
 import image2 from '../../assets/image2.jpg'
@@ -13,6 +18,7 @@ import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
 import diseño7 from '../../assets/diseño7.png'
+import videorancho from '../../assets/VideoRancho.mp4';
 import logo from '../../assets/Logo.png'
 
 function Portafolio () {
@@ -39,8 +45,7 @@ function Portafolio () {
         text: [
           <>
           <p>
-            Creación de logos con Adobe Illustrator y CorelDraw.
-            Posts para redes sociales, menús, volantes, videos y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.
+            Creación de logos, posts para redes sociales, menús, volantes, videos y demás publicidad física y digital para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator, PremierePro, Filmora y CorelDraw.
           </p>
           <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Ver Más
@@ -102,11 +107,39 @@ function Portafolio () {
                                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                           </div>
                                           <div className="modal-body">
-                                                {selectedData.images.map((image, index) => (
-                                                  <div key={index}>
-                                                    <img src={image} alt={`Imagen ${index + 1}`}/>
-                                                  </div>
-                                                ))};  
+                                            <Swiper
+                                              spaceBetween={10}
+                                              slidesPerView={1}
+                                              modules={[Navigation, Pagination]}
+                                              navigation
+                                              pagination={{ clickable: true }}
+                                              loop={true}
+                                            >
+                                              {selectedData.images.map((image, index) => (
+                                                <SwiperSlide key={index}>
+                                                  <img src={image} alt={`Imagen ${index + 1}`} className="w-full h-auto" />
+                                                </SwiperSlide>
+                                              ))}
+                                              {selectedButton === 2 && (
+                                                <SwiperSlide>
+                                                  <p className='favor'>Por favor pausa el video antes de cerrar esta ventana.</p>
+                                                <video
+                                                  src={videorancho}
+                                                  controls
+                                                  style={{
+                                                    display: 'block',
+                                                    margin: '0 auto',
+                                                    width: '100%',
+                                                    height: 'auto',
+                                                    borderRadius: '12px'
+                                                  }}
+                                                  className="w-full h-auto"
+                                                >
+                                                  Tu navegador no soporta el elemento de video.
+                                                </video>
+                                              </SwiperSlide>
+                                              )}
+                                            </Swiper>
                                           </div>
                                           <div className="modal-footer">
                                             <button type="button" className="btnModal" data-bs-dismiss="modal">Aceptar</button>
