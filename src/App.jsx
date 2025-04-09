@@ -1,5 +1,5 @@
 import './App.css'
-import NavHeader from './components/NavHeader/NavHeader'
+// import NavHeader from './components/NavHeader/NavHeader'
 import Inicio from './components/Inicio/Inicio'
 import SobreMi from './components/SobreMi/SobreMi'
 import Portafolio from './components/Portafolio/Portafolio'
@@ -10,7 +10,7 @@ function App() {
   
   return (
     <>
-      <NavHeader/>
+      {/* <NavHeader/> */}
       <Inicio/>
       <SobreMi/>
       <Portafolio/>

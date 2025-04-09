@@ -2,11 +2,15 @@ import '../../components/Inicio/Inicio.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import MyCV from '../../assets/CV.pdf';
+import Logo from '../../assets/Logo.png'
 
 function Inicio () {
   return (
     <section className='wrapContent bg2'>
         <div className='heroContent'>
+            
+                <img className='logo' src={Logo} alt="" />
+            
             <div className='info1'>
             <p id='actualizar'>Actualizado: 04 abril 2025</p>
                 <p>Yo soy</p>

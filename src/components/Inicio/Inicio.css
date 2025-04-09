@@ -36,7 +36,10 @@
     width: 90%;
     max-width: 1900px;
     color: #fff;
-    margin-top: 80px;
+}
+
+.heroContent img{
+    width: 250px;
 }
 
 .point{
@@ -112,6 +115,11 @@
     .heroContent{
         display: block;
         padding: 20px 0;
+    }
+
+    .heroContent img{
+        width: 150px;
+        margin-left: 30%;
     }
 
     .info1{

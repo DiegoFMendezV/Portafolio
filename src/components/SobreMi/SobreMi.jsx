@@ -11,7 +11,7 @@ function SobreMi () {
           </div>
           <div className="contentSobreMi">
             <h3>SOBRE MI</h3>
-            <p>Técnico en Programación de Software y culminando el Tecnólogo en Desarrollo Multimedia y Web. Con conocimientos en gestores de contenido como WordPress, en software de diseño gráfico como Photoshop, Illustrator, CorelDraw y PremierePro. También desarrollo sitios web con HTML, CSS y JavaScript, además del uso de frameworks como Laravel (PHP), Bootstrap, React.js, también en bases de datos relacionales (MySQL - PostgreSQL).  <br /> <br /> Caracterizado por la adaptabilidad, comunicación asertiva, orientación a resultados, proactividad y trabajo en equipo. Orientado en contribuir al éxito de proyectos desafiantes y colaborar con un equipo altamente motivado para lograr resultados óptimos. </p>
+            <p>Técnico en Programación de Software y estudiamte de último trimestre del Tecnólogo en Desarrollo Multimedia y Web. Con conocimientos en gestores de contenido como WordPress, en software de diseño gráfico como Photoshop, Illustrator, CorelDraw y PremierePro. También desarrollo sitios web con HTML, CSS y JavaScript, además del uso de frameworks como Laravel (PHP), Bootstrap, React.js, también en bases de datos relacionales (MySQL - PostgreSQL).  <br /> <br /> Caracterizado por la adaptabilidad, comunicación asertiva, orientación a resultados, proactividad y trabajo en equipo. Orientado en contribuir al éxito de proyectos desafiantes y colaborar con un equipo altamente motivado para lograr resultados óptimos. </p>
           </div>
         </div>      
       </article>
