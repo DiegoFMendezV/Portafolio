@@ -8,7 +8,7 @@ function Inicio () {
     <section className='wrapContent bg2'>
         <div className='heroContent'>
             <div className='info1'>
-            <p id='actualizar'>Actualizado: 14 febrero 2025</p>
+            <p id='actualizar'>Actualizado: 04 abril 2025</p>
                 <p>Yo soy</p>
                 <h1 className='background'>DESARROLLADOR <br />MULTIMEDIA Y <br />WEB <span className='point'></span></h1>
             </div>

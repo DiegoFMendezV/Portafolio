@@ -1,7 +1,13 @@
 .contentPortafolio h3{
     color: var(--web-color);
     text-align: center;
-    margin: 30px 0;
+    margin-top: 30px;
+}
+
+.contentPortafolio .clic{
+    color: var(--bg-color);
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .contentPortafolio .info{
@@ -21,7 +27,6 @@
 .contentPortafolio .info .card .img_portada{
     width: 200px;
     margin: 20px auto;
-    border: 5px solid var(--web-color);
 }
 
 .contentPortafolio .info .card{

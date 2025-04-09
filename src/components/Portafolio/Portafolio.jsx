@@ -12,6 +12,7 @@ import diseño3 from '../../assets/diseño3.jpg'
 import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
+import diseño7 from '../../assets/diseño7.png'
 import logo from '../../assets/Logo.png'
 
 function Portafolio () {
@@ -33,13 +34,13 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño1, diseño2, diseño3, diseño4, diseño5, diseño6],
+        images: [logo, diseño5, diseño6, diseño7, diseño1, diseño2, diseño3, diseño4],
         title: ['Diseño Gráfico'],
         text: [
           <>
           <p>
             Creación de logos con Adobe Illustrator y CorelDraw.
-            Posts para redes sociales, menús, volantes y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.
+            Posts para redes sociales, menús, volantes, videos y demás publicidad para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator y CorelDraw.
           </p>
           <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Ver Más
@@ -76,6 +77,7 @@ function Portafolio () {
             <div className='subWrap'>
                 <div className="contentPortafolio">
                     <h3>PORTAFOLIO</h3>
+                    <h6 className='clic'>Haz clic al proyecto que deseas ver</h6>
                     <div className='botones'>
                     <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
                     <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño Gráfico</button>
