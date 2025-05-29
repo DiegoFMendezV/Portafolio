@@ -13,16 +13,18 @@ import image5 from '../../assets/image5.jpg'
 import poke from '../../assets/POKE.png'
 import diseño1 from '../../assets/diseño1.jpg'
 import diseño2 from '../../assets/diseño2.jpg'
-import diseño3 from '../../assets/diseño3.jpg'
+import diseño3 from '../../assets/diseño3.png'
 import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
 import diseño7 from '../../assets/diseño7.png'
+import diseño8 from '../../assets/diseño8.png'
 import videorancho from '../../assets/VideoRancho.mp4';
+import videocarocakes from '../../assets/VideoCaroCakes.mp4';
 import logo from '../../assets/Logo.png'
 
 function Portafolio () {
-  const [selectedButton, setSelectedButton] = useState(1);
+  const [selectedButton, setSelectedButton] = useState(2);
   
   const data = {
       1: {
@@ -40,12 +42,12 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño5, diseño6, diseño7, diseño1, diseño2, diseño3, diseño4],
+        images: [logo, diseño5, diseño6, diseño7, diseño8,diseño1, diseño2, diseño3, diseño4],
         title: ['Diseño Gráfico'],
         text: [
           <>
           <p>
-            Creación de logos, posts para redes sociales, menús, volantes, videos y demás publicidad física y digital para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator, PremierePro, Filmora y CorelDraw.
+            Creación de logos, posts para redes sociales, videos publicitarios, menús, volantes y demás publicidad física y digital para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator, PremierePro, Filmora y CorelDraw.
           </p>
           <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Ver Más
@@ -57,7 +59,7 @@ function Portafolio () {
       3: {
         images: [poke],
         title: ['Pokedex'],
-        text: ['Crear sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript,apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
+        text: ['Creación sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript, apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
         text1:[
           <>
           <button className="btnCard btn_ver">
@@ -84,8 +86,8 @@ function Portafolio () {
                     <h3>PORTAFOLIO</h3>
                     <h6 className='clic'>Haz clic al proyecto que deseas ver</h6>
                     <div className='botones'>
-                    <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
                     <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño Gráfico</button>
+                    <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
                     <button className='btnPortafolio' onClick={() => handleClick(3)}>Proyectos Académicos</button>
                     </div>
 
@@ -117,14 +119,33 @@ function Portafolio () {
                                             >
                                               {selectedData.images.map((image, index) => (
                                                 <SwiperSlide key={index}>
-                                                  <img src={image} alt={`Imagen ${index + 1}`} className="w-full h-auto" />
+                                                  <img src={image} alt={`Imagen ${index + 1}`} className="w-full h-auto"/>
                                                 </SwiperSlide>
                                               ))}
                                               {selectedButton === 2 && (
                                                 <SwiperSlide>
-                                                  <p className='favor'>Por favor pausa el video antes de cerrar esta ventana.</p>
+                                                  <p className='favor'>NOTA: Por favor pausa el video antes de cerrar esta ventana.</p>
                                                 <video
                                                   src={videorancho}
+                                                  controls
+                                                  style={{
+                                                    display: 'block',
+                                                    margin: '0 auto',
+                                                    width: '100%',
+                                                    height: 'auto',
+                                                    borderRadius: '12px'
+                                                  }}
+                                                  className="w-full h-auto"
+                                                >
+                                                  Tu navegador no soporta el elemento de video.
+                                                </video>
+                                              </SwiperSlide>
+                                              )}
+                                              {selectedButton === 2 && (
+                                                <SwiperSlide>
+                                                  <p className='favor'>NOTA: Por favor pausa el video antes de cerrar esta ventana.</p>
+                                                <video
+                                                  src={videocarocakes}
                                                   controls
                                                   style={{
                                                     display: 'block',

@@ -110,7 +110,8 @@
 }
 
 .favor{
-    color: var(--bg-color);
+    color: red;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 1125px){
@@ -120,7 +121,7 @@
 
     .contentPortafolio .info .card{
         width: 30rem;
-        height: 35rem;
+        height: 37rem;
         padding: 20px;
         margin-bottom: 30px;
     }
