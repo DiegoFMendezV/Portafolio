@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 
 import '../../components/Contacto/Contacto.css'
 
+import VisitCounter from '../../components/Contador/VisitCounter';
 
 function Contacto () {
   const form = useRef();
@@ -52,6 +53,7 @@ function Contacto () {
           </div>
         </div> 
       </article>
+      <VisitCounter />
     </>
   )
 }
