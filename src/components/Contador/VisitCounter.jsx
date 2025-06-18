@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 function GlobalVisitCounter() {
-  const [count, setCount] = useState(5);
+  const [count, setCount] = useState(46);
 
   useEffect(() => {
     axios

@@ -12,7 +12,7 @@ import image4 from '../../assets/image4.jpg'
 import image5 from '../../assets/image5.jpg'
 import poke from '../../assets/POKE.png'
 import diseño1 from '../../assets/diseño1.jpg'
-import diseño2 from '../../assets/diseño2.jpg'
+
 import diseño3 from '../../assets/diseño3.png'
 import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
@@ -21,6 +21,7 @@ import diseño7 from '../../assets/diseño7.png'
 import diseño8 from '../../assets/diseño8.png'
 import videorancho from '../../assets/VideoRancho.mp4';
 import videocarocakes from '../../assets/VideoCaroCakes.mp4';
+import videoinvitacion from '../../assets/Videoinvitacion.mp4';
 import logo from '../../assets/Logo.png'
 
 function Portafolio () {
@@ -42,7 +43,7 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño5, diseño6, diseño7, diseño8,diseño1, diseño2, diseño3, diseño4],
+        images: [logo, diseño5, diseño6, diseño7, diseño8,diseño1,diseño3, diseño4],
         title: ['Diseño Gráfico'],
         text: [
           <>
@@ -151,6 +152,25 @@ function Portafolio () {
                                                     display: 'block',
                                                     margin: '0 auto',
                                                     width: '100%',
+                                                    height: 'auto',
+                                                    borderRadius: '12px'
+                                                  }}
+                                                  className="w-full h-auto"
+                                                >
+                                                  Tu navegador no soporta el elemento de video.
+                                                </video>
+                                              </SwiperSlide>
+                                              )}
+                                              {selectedButton === 2 && (
+                                                <SwiperSlide>
+                                                  <p className='favor'>NOTA: Por favor pausa el video antes de cerrar esta ventana.</p>
+                                                <video
+                                                  src={videoinvitacion}
+                                                  controls
+                                                  style={{
+                                                    display: 'block',
+                                                    margin: '0 auto',
+                                                    width: '70%',
                                                     height: 'auto',
                                                     borderRadius: '12px'
                                                   }}

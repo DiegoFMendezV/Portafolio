@@ -215,7 +215,7 @@
     }
 
     .subWrap .contentSobreMi .skills .web{
-        display: grid;
+        display: grid; 
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
@@ -228,6 +228,8 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        justify-content: center
     }
 
     .subWrap .contentSobreMi .skills .back img{
