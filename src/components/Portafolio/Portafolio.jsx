@@ -10,9 +10,9 @@ import image2 from '../../assets/image2.jpg'
 import image3 from '../../assets/image3.jpg'
 import image4 from '../../assets/image4.jpg'
 import image5 from '../../assets/image5.jpg'
-import poke from '../../assets/POKE.png'
+// import poke from '../../assets/POKE.png'
 import diseño1 from '../../assets/diseño1.jpg'
-
+import diseño2 from '../../assets/diseño2.png'
 import diseño3 from '../../assets/diseño3.png'
 import diseño4 from '../../assets/diseño4.jpg'
 import diseño5 from '../../assets/diseño5.png'
@@ -43,7 +43,7 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño5, diseño6, diseño7, diseño8,diseño1,diseño3, diseño4],
+        images: [logo, diseño5, diseño6, diseño7, diseño8, diseño1, diseño2, diseño3, diseño4],
         title: ['Diseño Gráfico'],
         text: [
           <>
@@ -57,18 +57,18 @@ function Portafolio () {
         ],
       },
       
-      3: {
-        images: [poke],
-        title: ['Pokedex'],
-        text: ['Creación sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript, apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
-        text1:[
-          <>
-          <button className="btnCard btn_ver">
-            <a id='visitar' href="https://pokedex-rosy-iota.vercel.app/" target='_blank'>Visitar Sitio</a>
-          </button>
-          </>
-        ]
-      },
+      // 3: {
+      //   images: [poke],
+      //   title: ['Pokedex'],
+      //   text: ['Creación sitio web de consultas de Pokemones, realizado con herramientas como HTML, CSS y JavaScript, apoyado con Bootstrap, donde se consume el API de la serie animada Pokémon. Permite visualizar imágenes y características básicas de cada personaje.'],
+      //   text1:[
+      //     <>
+      //     <button className="btnCard btn_ver">
+      //       <a id='visitar' href="https://pokedex-rosy-iota.vercel.app/" target='_blank'>Visitar Sitio</a>
+      //     </button>
+      //     </>
+      //   ]
+      // },
     };
   
     // Agregar un control para manejar el caso de un valor no válido de selectedButton
@@ -89,7 +89,7 @@ function Portafolio () {
                     <div className='botones'>
                     <button className='btnPortafolio' onClick={() => handleClick(2)}>Proyectos Diseño Gráfico</button>
                     <button className='btnPortafolio' onClick={() => handleClick(1)}>Proyectos Web</button>
-                    <button className='btnPortafolio' onClick={() => handleClick(3)}>Proyectos Académicos</button>
+                    {/* <button className='btnPortafolio' onClick={() => handleClick(3)}>Proyectos Académicos</button> */}
                     </div>
 
                     <div className='info'>

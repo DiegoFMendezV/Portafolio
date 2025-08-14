@@ -136,9 +136,15 @@
     gap: 30px;
 }
 
-.subWrap .contentSobreMi .skills .back img{
-   width: 150px;
+.subWrap .contentSobreMi .skills .back .lara{
+   width: 140px;
+   height: 110px;
 }
+
+.subWrap .contentSobreMi .skills .back .node{
+    width: 140px;
+    height: 110px;
+ }
 
 .subWrap .contentSobreMi .skills .bd{
     display: flex;
@@ -234,7 +240,7 @@
 
     .subWrap .contentSobreMi .skills .back img{
         width: 100px;
-    }
+    }   
 
     .subWrap .contentSobreMi .skills .bd img{
         width: 100px;

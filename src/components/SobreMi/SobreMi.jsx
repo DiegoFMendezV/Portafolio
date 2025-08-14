@@ -97,8 +97,8 @@ function SobreMi () {
               </div> 
               <h5>Backend</h5>
               <div className="back">
-                <img src="https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png" alt="Laravel" title='Laravel'/>
-                <img src="https://seekvectors.com/files/download/node%20js%20logo.png" alt="" />
+                <img src="https://kinsta.com/wp-content/uploads/2022/06/laravel.png" className="lara" alt="Laravel" title='Laravel'/>
+                <img src="https://i.pinimg.com/736x/4d/fc/38/4dfc38802784bcf687f616e7e5a4370c.jpg" className="node" alt="" />
               </div>
               <h5>Base de datos</h5>
               <div className='bd'>
