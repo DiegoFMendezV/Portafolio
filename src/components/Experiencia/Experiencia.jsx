@@ -10,10 +10,10 @@ function Experiencia () {
             <div className='experiencia'>
                 <ol>
                 <li>
-                    <b>Desarrollador Multimedia</b> <br />
+                    <b>Asistente de Comunicaciones y Mercadeo</b> <br />
                     Saving the Amazon<br />
                     Agosto 2025 - Febrero 2026 <br />
-                    Crear contenido para redes sociales, posts y edición de video, registro fotográfico.
+                    Crear contenido digital y escrito; edición de videos y reels; manejo, seguimiento y atención de mensajes, comentarios e interacciones en las distintas redes sociales; apoyo en creación de campañas y pautas publicitarias en Meta ads, desarrollo de contenido para aliados estratégicos, planificación y diseño de la parrilla de contenido en conjunto con la Community Manager; administración y asignación de leads para el área de mercadeo; registro audiovisual en eventos internos y públicos.
                   </li>
                   <li>
                     <b>Desarrollador Multimedia</b> <br />
