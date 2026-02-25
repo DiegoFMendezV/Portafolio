@@ -150,7 +150,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 30px;
+    
 }
 
 .subWrap .contentSobreMi .skills .bd img{
@@ -161,6 +161,7 @@
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 30px;
 }
 
 .subWrap .contentSobreMi .skills .cms img{
@@ -168,14 +169,16 @@
 }
 
 .subWrap .contentSobreMi .skills .diseño{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     gap: 50px;
     margin-bottom: 20px;
 }
 
 .subWrap .contentSobreMi .skills .diseño img{
-   width: 150px;
+   width: 120px;
 }
 
 @media screen and (max-width: 1125px){

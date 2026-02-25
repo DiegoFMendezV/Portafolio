@@ -19,6 +19,9 @@ import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
 import diseño7 from '../../assets/diseño7.png'
 import diseño8 from '../../assets/diseño8.png'
+import diseño9 from '../../assets/1.png'
+import diseño10 from '../../assets/2.png'
+import diseño11 from '../../assets/3.png'
 import videorancho from '../../assets/VideoRancho.mp4';
 import videocarocakes from '../../assets/VideoCaroCakes.mp4';
 import videoinvitacion from '../../assets/Videoinvitacion.mp4';
@@ -43,12 +46,12 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño5, diseño6, diseño7, diseño8, diseño1, diseño2, diseño3, diseño4],
+        images: [logo, diseño5, diseño6, diseño7, diseño8, diseño1, diseño2, diseño3, diseño4, diseño9, diseño10, diseño11],
         title: ['Diseño Gráfico'],
         text: [
           <>
           <p>
-            Creación de logos, posts para redes sociales, videos publicitarios, menús, volantes y demás publicidad física y digital para varios tipos de restaurantes, en los cuales se emplearon herramientas como Photoshop, Illustrator, PremierePro, Filmora y CorelDraw.
+            Creación de contenido para redes sociales, creación de logos, posts, edicion de videos, creación de menús, volantes y demás publicidad física y digital, se emplearon herramientas como Photoshop, Illustrator, PremierePro, Filmora, CorelDraw, Canva y/o Capcut.
           </p>
           <button type="button" className="btnCard" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Ver Más

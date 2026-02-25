@@ -9,6 +9,12 @@ function Experiencia () {
             <h3>EXPERIENCIA</h3>
             <div className='experiencia'>
                 <ol>
+                <li>
+                    <b>Desarrollador Multimedia</b> <br />
+                    Saving the Amazon<br />
+                    Agosto 2025 - Febrero 2026 <br />
+                    Crear contenido para redes sociales, posts y edición de video, registro fotográfico.
+                  </li>
                   <li>
                     <b>Desarrollador Multimedia</b> <br />
                     Imagen Art and Design<br />
@@ -26,7 +32,7 @@ function Experiencia () {
                   <li>
                     <b>Desarrollador Fullstack</b> <br />
                     Liwa S.A.S. E.S.P.<br />
-                    Enero 2023 - Julio 2023 <br />
+                    Enero 2023 - Julio 2023 (prácticas)<br />
                     Mejorar página web para los colaboradores de la compañía, haciendo uso de HTML, CSS, JavaScript, frameworks 
                     como Laravel y Vue.js. Se rediseñó varias secciones, así como la creación del módulo de perfil, cambio de contraseña y cambio 
                     de foto de perfil con sus respectivas validaciones.
