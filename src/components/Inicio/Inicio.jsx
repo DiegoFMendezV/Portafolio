@@ -10,7 +10,7 @@ function Inicio () {
         <div className='heroContent'>
             <img className='logo' src={Logo} alt="" />
             <div className='info1'>
-            <p id='actualizar'>Actualizado: 25 febrero 2026</p>
+            <p id='actualizar'>Actualizado: 20 de Agosto 2026</p>
                 <p>Yo soy</p>
                 <h1 className='background'>DESARROLLADOR <br />MULTIMEDIA <span className='point'></span></h1>
             </div>
