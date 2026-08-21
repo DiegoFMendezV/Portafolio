@@ -113,11 +113,11 @@ const Contacto = () => {
                 
               </form>
             </div>
-      <VisitCounter />
           </div>
         </div>
       </article>
 
+      <VisitCounter />
     </>
   );
 };
