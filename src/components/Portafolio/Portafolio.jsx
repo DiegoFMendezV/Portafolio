@@ -14,7 +14,7 @@ import image5 from '../../assets/image5.jpg'
 import diseño1 from '../../assets/diseño1.jpg'
 import diseño2 from '../../assets/diseño2.png'
 import diseño3 from '../../assets/diseño3.png'
-import diseño4 from '../../assets/diseño4.jpg'
+import diseño4 from '../../assets/diseño4.png'
 import diseño5 from '../../assets/diseño5.png'
 import diseño6 from '../../assets/diseño6.png'
 import diseño7 from '../../assets/diseño7.png'
@@ -22,6 +22,8 @@ import diseño8 from '../../assets/diseño8.png'
 import diseño9 from '../../assets/1.png'
 import diseño10 from '../../assets/2.png'
 import diseño11 from '../../assets/3.png'
+import diseño12 from '../../assets/menu.png'
+import diseño13 from '../../assets/diseño13.png'
 import videorancho from '../../assets/VideoRancho.mp4';
 import videocarocakes from '../../assets/VideoCaroCakes.mp4';
 import videoinvitacion from '../../assets/Videoinvitacion.mp4';
@@ -46,7 +48,7 @@ function Portafolio () {
       ],
       },
       2: {
-        images: [logo, diseño5, diseño6, diseño7, diseño8, diseño1, diseño2, diseño3, diseño4, diseño9, diseño10, diseño11],
+        images: [logo, diseño5, diseño6, diseño7, diseño8, diseño1, diseño2, diseño3, diseño4, diseño9, diseño10, diseño11, diseño12, diseño13],
         title: ['Diseño Gráfico'],
         text: [
           <>

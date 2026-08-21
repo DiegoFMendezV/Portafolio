@@ -11,7 +11,7 @@ function SobreMi () {
           </div>
           <div className="contentSobreMi">
             <h3>SOBRE MI</h3>
-            <p>Tecnólogo en Desarrollo Multimedia y Técnico en Programación de Software. Con conocimientos en gestores de contenido como WordPress, en software de diseño gráfico como Photoshop, Illustrator, CorelDraw, PremierePro, Filmora, Canva y Capcut. También desarrollo sitios web con HTML, CSS y JavaScript, además del uso de frameworks como Laravel (PHP), Bootstrap, React.js, también en bases de datos relacionales (MySQL - PostgreSQL).  <br /> <br /> Caracterizado por la adaptabilidad, comunicación asertiva, orientación a resultados, proactividad y trabajo en equipo. Orientado en contribuir al éxito de proyectos desafiantes y colaborar con un equipo altamente motivado para lograr resultados óptimos. </p>
+            <p>Diseñador Multimedia con experiencia en creación de contenido visual para redes sociales, diseño de identidad gráfica y edición de video en formatos digitales. He apoyado en la ejecución de campañas y gestión de contenido orientado a posicionamiento de marca y captación de leads en sectores gastronómicos e institucionales, manteniendo coherencia visual y organización en entregas. Cuento con conocimientos complementarios en desarrollo web, lo que me permite diseñar pensando en experiencia digital y conversión. </p>
           </div>
         </div>      
       </article>
@@ -26,14 +26,14 @@ function SobreMi () {
                   <li>
                     Tecnólogo en Desarrollo Multimedia y Web <br />
                     Servicio Nacional de Aprendizaje - SENA <br />
-                    Montería, Cordoba. <br />
-                    Etapa práctica.
+                    Certificado - 2026 <br />
+                    Montería, Cordoba. 
                   </li>
                   <li>
                     Técnico en Programación de Software <br />
                     Servicio Nacional de Aprendizaje - SENA <br />
                     Certificado - 2023 <br />
-                    Mosquera, Cundinamarca
+                    Mosquera, Cundinamarca.
                   </li>
                 </ol>
               </div>
@@ -41,22 +41,24 @@ function SobreMi () {
                 <h5>Cursos</h5>
                 <ol>
                   <li>
+                    Uso de la Imagen y Fotografía en Producciones Graficas <br />
+                    Servicio Nacional de Aprendizaje SENA <br />
+                    Certificado - 2026 <br />
+                  </li>
+                  <li>
                     Manejo de Adobe Photoshop <br />
                     Servicio Nacional de Aprendizaje SENA <br />
                     Certificado - 2025 <br />
-                    Cúcuta, Norte de Santander - Colombia.
                   </li>
                   <li>
                     CorelDraw - Utilización de Herramientas de Diseño Vectorial <br />
                     Servicio Nacional de Aprendizaje SENA <br />
                     Certificado - 2025 <br />
-                    Cúcuta, Norte de Santander - Colombia.
                   </li>
                   <li>
                     Producción de Imágenes Digitales <br />
                     Servicio Nacional de Aprendizaje SENA <br />
                     Certificado - 2024 <br />
-                    Vélez, Santander - Colombia.
                   </li>
                   <li>
                     Bootcamp Desarrollo Full Stack (MERN) <br />
@@ -74,7 +76,6 @@ function SobreMi () {
                     Análisis de Datos y Big Data <br />
                     Corporación Educación Tecnológica Colsubsidio <br />
                     Certificado - 2022 <br />
-                    Bogotá D.C - Colombia
                   </li>
                 </ol>
               </div>
@@ -89,12 +90,12 @@ function SobreMi () {
             <div className="skills">
             <h5>Diseño Gráfico</h5>
               <div className="diseño">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Illustrator_CC_icon.png/492px-Illustrator_CC_icon.png" alt="Adobe Illustrator" />
-                <img src="https://w7.pngwing.com/pngs/301/722/png-transparent-adobe-logo-logos-photoshop-logos-and-brands-icon-thumbnail.png" alt="" />
-                <img src="https://www.cdnlogo.com/logos/p/70/premiere-pro-cc.svg" alt="" />
-                <img src="	https://www.coreldraw.com/static/cdgs/product_content/cdgs/2024/icon-coreldraw.png" alt="" />
-                <img src="https://freelogopng.com/images/all_img/1682566315logo-filmora.png" alt="" />
-                <img src="https://public.canva.site/logo/media/dfb96cc174513093cd6ed61489ccb750.svg" alt="" />
+                <img src="https://tecnologia.uniandes.edu.co/wp-content/uploads/Logo-Adobe-Illustrator.png" alt="Adobe Illustrator" />
+                <img src="https://w7.pngwing.com/pngs/301/722/png-transparent-adobe-logo-logos-photoshop-logos-and-brands-icon-thumbnail.png" alt="Adobe Photoshop" />
+                <img src="https://www.comparasoftware.co/image-assets/412/NDEyfHdwLWNvbnRlbnQvdXBsb2Fkcy8yMDE4LzExL2xvZ29BZG9iZS1QcmVtaWVyZS1Qcm8tQ0MucG5n.webp" alt="Adobe PremierPro" />
+                <img src="	https://www.coreldraw.com/static/cdgs/product_content/cdgs/2024/icon-coreldraw.png" alt="Corel Draw" />
+                <img src="https://freelogopng.com/images/all_img/1682566315logo-filmora.png" alt="Filmora" />
+                <img src="https://play-lh.googleusercontent.com/JC3HW-ps59VAEU3vuJoi3I5XB_IQ9ISuILLudUY9uLSW7eKfqtXitrB-fF865rV4TQ" alt="Canva" />
                 <img src="https://static.vecteezy.com/system/resources/previews/067/065/640/non_2x/capcut-logo-square-rounded-capcut-logo-capcut-logo-free-download-free-png.png" alt="" />
               </div>
              
